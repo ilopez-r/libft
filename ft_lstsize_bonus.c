@@ -1,27 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strtrim.c                                       :+:      :+:    :+:   */
+/*   ft_lstsize_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ilopez-r <ilopez-r@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/27 12:34:15 by ilopez-r          #+#    #+#             */
-/*   Updated: 2023/05/22 12:57:41 by ilopez-r         ###   ########.fr       */
+/*   Created: 2023/05/22 15:51:34 by ilopez-r          #+#    #+#             */
+/*   Updated: 2023/05/22 16:21:27 by ilopez-r         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strtrim(char const *s1, char const *set)
+int	ft_lstsize(t_list *lst)
 {
-	size_t	len;
+	t_list	*new;
+	int		i;
 
-	if (s1 == 0 || set == 0)
+	i = 1;
+	new = lst;
+	if (lst == 0)
 		return (0);
-	while (*s1 != '\0' && ft_strchr(set, *s1))
-		s1++;
-	len = ft_strlen(s1);
-	while (len != 0 && ft_strchr(set, s1[len]))
-		len--;
-	return (ft_substr(s1, 0, (len + 1)));
+	while (new->next != 0)
+	{
+		i++;
+		new = new->next;
+	}
+	return (i);
 }
