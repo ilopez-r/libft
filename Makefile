@@ -6,7 +6,7 @@
 #    By: ilopez-r <ilopez-r@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/20 17:20:15 by ilopez-r          #+#    #+#              #
-#    Updated: 2023/05/22 18:16:05 by ilopez-r         ###   ########.fr        #
+#    Updated: 2023/05/23 14:04:09 by ilopez-r         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -57,6 +57,7 @@ FILES_BONUS = ft_lstnew_bonus.c\
 			ft_lstdelone_bonus.c\
 			ft_lstclear_bonus.c\
 			ft_lstiter_bonus.c\
+			ft_lstmap_bonus.c\
 
 OBJS = $(FILES:.c=.o)
 
@@ -78,7 +79,7 @@ fclean:
 
 re : fclean all
 
-bonus: $(OBJ_BONUS) $(OBJ)
+bonus: $(OBJ_BONUS) $(OBJS)
 	ar rcs $(NAME) $(OBJS) $(OBJ_BONUS)
 
 .PHONY : all re fclean clean bonus
