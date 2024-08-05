@@ -1,3 +1,5 @@
+![image](https://raw.githubusercontent.com/ilopez-r/badges/main/covers/cover-libft-bonus.png?token=GHSAT0AAAAAACVW47MTKXWYGEBJ26DQVZKIZVQ5FUA)
+
 # Libft Introduction
 
 Libft (Library of Functions)
@@ -77,5 +79,3 @@ https://www.asidesigned.com/project-libft.html
 - [`ft_lstclear`](ft_lstclear.c)	- deletes and free list.
 - [`ft_lstiter`](ft_lstiter.c)	- applies a function to each element of a list.
 - [`ft_lstmap`](ft_lstmap.c)	- applies a function to each element of a list.
-
-![image](https://user-images.githubusercontent.com/58959408/150704272-0d7b454d-2872-4695-aade-e5bc9c3b79aa.jpg)
