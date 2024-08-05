@@ -1,8 +1,8 @@
 ![image](https://raw.githubusercontent.com/ilopez-r/badges/main/covers/cover-libft-bonus.png?token=GHSAT0AAAAAACVW47MTKXWYGEBJ26DQVZKIZVQ5FUA)
 
-# [Subject]()
+## [Subject]()
 
-# Libft Introduction
+## Libft Introduction
 
 Libft (Library of Functions)
 
@@ -21,11 +21,11 @@ Make sure you add `#include "libft.h"` in all of your .c files.
 ### Makefile 
 Makefile is where you will create a file to compile your projects. Remember how in the piscine, you created an **int main** and **gcc** to compile the projects, well with a Makefile, you don't have to do that anymore, you just type `make` once you have created your Makefile. 
 
-# Great Resource for Libft
+## Great Resource for Libft
 
 https://www.asidesigned.com/project-libft.html 
 
-# Libft Functions
+## Libft Functions
 
 ### Functions from `<ctype.h>`
 
