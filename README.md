@@ -1,7 +1,7 @@
-![image](https://raw.githubusercontent.com/ilopez-r/badges/main/covers/cover-libft-bonus.png?token=GHSAT0AAAAAACVW47MTKXWYGEBJ26DQVZKIZVQ5FUA)
+![image](https://raw.githubusercontent.com/ilopez-r/resources/main/covers/cover-libft-bonus.png)
 
 ## Subject
-This is the [subject]() for this project.
+This is the [subject](https://github.com/ilopez-r/resources/blob/main/subjects/00_libft_en.pdf) for this project.
 
 ## Libft Introduction
 
